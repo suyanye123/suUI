@@ -4,7 +4,17 @@
   "description": "my private UI tool storage，which helped me pratice and work effective <br/>\r 这里是简素言也的个人UI及工具库，用于帮助个人学习、练习，以及平时更便捷高效的工作",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.1"
   },
   "repository": {
     "type": "git",
