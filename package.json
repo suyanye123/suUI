@@ -1,0 +1,22 @@
+{
+  "name": "suui",
+  "version": "1.0.0",
+  "description": "my private UI tool storage，which helped me pratice and work effective <br/>\r 这里是简素言也的个人UI及工具库，用于帮助个人学习、练习，以及平时更便捷高效的工作",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyanye123/suUI.git"
+  },
+  "keywords": [
+    "Yunan101361"
+  ],
+  "author": "suyanye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suyanye123/suUI/issues"
+  },
+  "homepage": "https://github.com/suyanye123/suUI#readme"
+}
