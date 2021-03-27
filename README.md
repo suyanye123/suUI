@@ -2,7 +2,19 @@
 my private UI tool storage，which helped me pratice and work effective <br/>
 这里是简素言也的个人UI及工具库，用于帮助个人学习、练习，以及平时更便捷高效的工作
 
-## 目录结构
+### 项目构建
+
+1.使用vite创建项目 npm init @vitejs/app suUI --template vue 
+
+2.npm install
+
+3.npm install vue-router@4 -S  新建router.js配置路由文件createWebHashHistory() hash 模式
+
+4.npm install sass -D
+
+### 
+
+### 目录结构
 
 `|-node_modules    -- 项目依赖包的目录`
 

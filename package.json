@@ -1,7 +1,7 @@
 {
-  "name": "suui",
-  "version": "1.0.0",
-  "description": "my private UI tool storage，which helped me pratice and work effective <br/>\r 这里是简素言也的个人UI及工具库，用于帮助个人学习、练习，以及平时更便捷高效的工作",
+  "name": "su-ui",
+  "version": "0.0.1",
+  "description": "suUI--suyanye's private ui tool storage",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -9,20 +9,22 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "sass": "^1.32.8",
     "vite": "^2.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suyanye123/suUI.git"
   },
-  "keywords": [
-    "Yunan101361"
-  ],
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "author": "suyanye",
   "license": "MIT",
   "bugs": {
