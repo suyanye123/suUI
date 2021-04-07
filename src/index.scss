@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+  }
+}
+body {
+  font-size: 16px;
+  font-family: -apple-system;
+}
