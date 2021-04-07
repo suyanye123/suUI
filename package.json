@@ -1,34 +1,17 @@
 {
-  "name": "su-ui",
-  "version": "0.0.1",
-  "description": "suUI--suyanye's private ui tool storage",
-  "main": "index.js",
+  "name": "suui",
+  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5",
-    "vue-router": "^4.0.4"
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.4",
+    "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
-    "sass": "^1.32.8",
-    "vite": "^2.0.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suyanye123/suUI.git"
-  },
-  "optionalDependencies": {
-    "fsevents": "*"
-  },
-  "author": "suyanye",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/suyanye123/suUI/issues"
-  },
-  "homepage": "https://github.com/suyanye123/suUI#readme"
+    "vite": "^2.1.5"
+  }
 }
