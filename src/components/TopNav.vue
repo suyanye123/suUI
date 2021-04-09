@@ -6,6 +6,7 @@
 </template>
 <script>
 export default {
+  name:'topNav',
   data() {
     return {};
   },
@@ -14,5 +15,9 @@ export default {
 </script>
 <style  lang='scss' scoped >
 .logo {
+  display: flex;
+  font-size: 20px;
+  width: 100vw;
+  background-color: rgb(245, 178, 178);
 }
 </style>

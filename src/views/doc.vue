@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+    <topNav></topNav>
     <div class="content">
       <aside>
         <h2>文档</h2>
@@ -37,8 +38,29 @@
 </template>
 
 <script>
-export default {};
+import topNav from '../components/TopNav.vue'
+export default {
+  components:{
+    topNav
+  }
+};
 </script>
 
 <style lang="scss" scoped>
+.content{
+  background-color: rgb(148, 137, 137);
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+   aside{
+    width: 20vw;
+    height: 90vh;
+    background-color: rgb(86, 119, 230);
+  }
+   main{
+   width: 80vw;
+   height: 80vh;
+   background-color: rgb(226, 221, 221);
+  }
+}
 </style>

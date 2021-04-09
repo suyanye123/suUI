@@ -1,6 +1,6 @@
 <template>
   <div>
-button
+i'm tabs
   </div>
 </template>
 <script>
@@ -11,5 +11,5 @@ export default {
   methods: {},
 };
 </script>
-<style  lang='scss'>
+<style  lang='scss' scoped >
 </style>

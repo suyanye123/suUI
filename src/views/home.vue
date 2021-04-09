@@ -1,4 +1,5 @@
 <template>
+  <topNav></topNav>
   <div class="introduce-content">
     <p>
       welcome to suUI ,this is a privite ui
@@ -11,16 +12,22 @@
       <br />
       please give me a star at github
     </p>
-    
-    <router-link class="bottom" to="/home">start</router-link>
+    <button class="start"> 
+      <router-link to="/doc">get start</router-link>
+    </button>
   </div>
 </template>
 
 <script>
-export default {};
+import topNav from '../components/TopNav.vue'
+export default {
+  components:{
+    topNav
+  }
+};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .introduce-content {
   font-size: 30px;
   height: 500px;
@@ -34,5 +41,11 @@ export default {};
       margin-top: 100px;
       background-color: rgb(204, 24, 24);
   }
+}
+.start{
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
 }
 </style>

@@ -1,11 +1,12 @@
 import { createWebHashHistory, createRouter } from "vue-router";
-import introduce from "./views/introduce.vue";
-import home from "./views/home.vue";
-import Intro from "./components/Intro.vue";
-import Button from "./components/ButtonDemo.vue";
-import Dialog from "./components/DialogDemo.vue";
-import Switch from "./components/SwitchDemo.vue";
-import Tabs from "./components/TabsDemo.vue";
+import Doc from "./views/doc.vue";
+import Home from "./views/home.vue";
+import Intro from "./components/doc/intro.vue";
+import GetStart from './components/doc/getStart.vue'
+import Button from "./components/doc/ButtonDemo.vue";
+import Dialog from "./components/doc/DialogDemo.vue";
+import Switch from "./components/doc/SwitchDemo.vue";
+import Tabs from "./components/doc/TabsDemo.vue";
 
 const history = createWebHashHistory();
 const router = createRouter({
@@ -13,34 +14,38 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      component: introduce,
+      component: Home,
     },
     {
-      path: "/home",
-      component: home,
+      path: "/doc",
+      component: Doc,
       children: [
         {
           path: "",
-          redirect: "/home/intro",
+          redirect: "/doc/intro",
         },
+        
         {
-          path: "/home/intro",
+          path: "/doc/intro",
           component: Intro,
+        }, {
+          path: "/doc/getstart",
+          component: GetStart,
         },
         {
-          path: "/home/button",
+          path: "/doc/button",
           component: Button,
         },
         {
-          path: "/home/dialog",
+          path: "/doc/dialog",
           component: Dialog,
         },
         {
-          path: "/home/switch",
+          path: "/doc/switch",
           component: Switch,
         },
         {
-          path: "/home/tabs",
+          path: "/doc/tabs",
           component: Tabs,
         },
       ],
