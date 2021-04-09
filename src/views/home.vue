@@ -1,46 +1,38 @@
 <template>
-  <div class="title"></div>
-  <div class="content">
-    <div class="left">
-       List
-      <router-link class="leftitem" to="button">button</router-link>
-      <router-link class="leftitem" to="form">form</router-link>
-      ro
-    </div>
-    <div class="right">
-      word detail
-      <router-view></router-view>
-    </div>
+  <div class="introduce-content">
+    <p>
+      welcome to suUI ,this is a privite ui
+      <br />
+      witch used only for privite study
+      <br />
+      and for learning vue3 and vite
+      <br />
+      if you think this is a good job
+      <br />
+      please give me a star at github
+    </p>
+    
+    <router-link class="bottom" to="/home">start</router-link>
   </div>
 </template>
 
 <script>
-import button from "../components/button.vue";
-import form from "../components/form.vue";
 export default {};
 </script>
 
 <style lang="scss" scoped>
-.title {
-  width: 100%;
-  height: 100px;
-  background-color: rgb(150, 122, 122);
-}
-.content {
-  width: 100%;
-  height: 830px;
-  background-color: rgb(91, 102, 82);
+.introduce-content {
+  font-size: 30px;
+  height: 500px;
+  letter-spacing: normal;
+  background-color: #fef;
   display: flex;
-  .left {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(219, 94, 94);
-    width: 10%;
-    font-size: 30px;
-    //   justify-content: space-around;
-    .leftitem {
-      margin: 30px 0;
-    }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .bottom{
+      margin-top: 100px;
+      background-color: rgb(204, 24, 24);
   }
 }
 </style>
