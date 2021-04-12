@@ -38,29 +38,34 @@
 </template>
 
 <script>
-import topNav from '../components/TopNav.vue'
+import topNav from "../components/TopNav.vue";
 export default {
-  components:{
-    topNav
-  }
+  components: {
+    topNav,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.content{
-  background-color: rgb(148, 137, 137);
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content {
   display: flex;
   width: 100vw;
-  height: 90vh;
-   aside{
-    width: 20vw;
-    height: 90vh;
-    background-color: rgb(86, 119, 230);
+  height: 92vh;
+  aside {
+    padding-left: 18px;
+    width: 13vw;
+    border: 1px solid;
+    border-color: #f1f1f1;
   }
-   main{
-   width: 80vw;
-   height: 80vh;
-   background-color: rgb(226, 221, 221);
+
+  main {
+    width: 87vw;
+    height: 80vh;
   }
 }
 </style>

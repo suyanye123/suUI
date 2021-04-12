@@ -12,37 +12,37 @@
       <br />
       please give me a star at github
     </p>
-    <button class="start"> 
+    <button class="start">
       <router-link to="/doc">get start</router-link>
     </button>
   </div>
 </template>
 
 <script>
-import topNav from '../components/TopNav.vue'
+import topNav from "../components/TopNav.vue";
 export default {
-  components:{
-    topNav
-  }
+  components: {
+    topNav,
+  },
 };
 </script>
 
 <style lang="scss" >
 .introduce-content {
   font-size: 30px;
-  height: 500px;
+  height: 90vh;
   letter-spacing: normal;
   background-color: #fef;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .bottom{
-      margin-top: 100px;
-      background-color: rgb(204, 24, 24);
+  .bottom {
+    margin-top: 100px;
+    background-color: rgb(204, 24, 24);
   }
 }
-.start{
+.start {
   margin-top: 50px;
   width: 100px;
   height: 30px;
