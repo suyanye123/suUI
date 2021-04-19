@@ -1,3 +1,4 @@
+@import "helper.scss";
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +11,33 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
   &:hover {
-    border-bottom: 1px solid blue;
     cursor: pointer;
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
 body {
+  background: white;
   font-size: 16px;
-  font-family: -apple-system;
+  font-family: $hei;
+  color: $grey;
+  line-height: 1.5;
+  width: 100%;
+  margin: auto;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }

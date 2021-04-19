@@ -32,7 +32,8 @@ export default {
   font-size: 30px;
   height: 90vh;
   letter-spacing: normal;
-  background-color: #fef;
+  background-color: #f9f9f9;
+  // background-color: #282c34;
   display: flex;
   flex-direction: column;
   justify-content: center;

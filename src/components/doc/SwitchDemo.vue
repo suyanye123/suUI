@@ -7,7 +7,7 @@
   <p>需要表示开关状态/两种状态之间的切换时。。</p>
 
   <p style="margin-top:30px">注意</p>
-  <p>以下代码中的 组件/函数 需要统一从 block-ui-1 中导入</p>
+  <p>以下代码中的 组件/函数 需要统一从 su-ui 中导入</p>
 
   <p style="margin-top:30px">代码演示</p>
 </template>
